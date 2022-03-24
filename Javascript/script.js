@@ -110,7 +110,7 @@ else if (exercicio == 11) {
     let number1 = parseFloat(prompt("Digite primeiro número: "));
     let number2 = parseFloat(prompt("Digite segundo número: "));
     let number3 = parseFloat(prompt("Digite terceiro número: "));
-    if (number1 > number2 > number3) {
+    if (number1 > number2 && number2 > number3) {
         alert("O maior número foi o primeiro, " + number1 + ", e o menor número foi o terceiro, " + number3 + ".");
     }
     else if (number1 > number3 && number3 > number2) {
