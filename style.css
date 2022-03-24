@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;700&family=Roboto:wght@400;700;900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', monospace;
+}
+:root {
+    --button-color:#9169e2;
+    --hovering-button:#c46efd;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding:10px;
+}
+.span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width:60px;
+}
+.brand {
+    color:#234297;
+    margin-left:10px;
+    font-size: 40px;
+}
+.navigation {
+    padding:30px;
+    color:#234297;
+    fontsize:25px;
+}
+.main {
+    background-image: url("space.jpg");
+    background-size: cover;
+    background-color: #cccccc;
+    padding:35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.astronaut {
+    width:350px;
+    padding-right:50px;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:18px;
+}
+.title {
+    color: var(--button-color);
+    font-size: 30px;
+}
+.description {
+    color: #F37267;
+    margin-bottom: 10px;
+}
+.paragraph {
+    color: #f1aeff;
+}
+.button {
+    margin-top: 20px;
+    border: none;
+    background-color: var(--button-color);
+    width:200px;
+    height:50px;
+    border-radius: 20px;
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.button:hover {
+    background-color: var(--hovering-button);
+}
+.footer {
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
