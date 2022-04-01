@@ -1,2 +1,2 @@
 # Hasa Project
-The Hasa Project is a space-themed website, it includes a header with the logo and navigation bar, as well as some description to what the fictional company envisions, and a button which changes colors when being hovered for more information.
+The Hasa Project is a space-themed website, it includes a header with the logo and navigation bar, as well as a spaceman illustration and some description to what the fictional company envisions, a button which changes colors when being hovered for more information and a footer with copyright information.
